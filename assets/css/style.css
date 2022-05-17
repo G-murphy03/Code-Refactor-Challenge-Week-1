@@ -1,0 +1,147 @@
+/* Selects all elements and sets box-sizing to border-box with  0 padding and 0px  margin */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*  Selects body element and sets the background colour to #d9dcd6 */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Selects the header element and sets the padding to 20px, a list of fonts in preferred order, background colour to #2a607c and text colour to #ffffff */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Selects the h1 element and sets it as an inline block so it is on one horizontal axis. Font-size is also specified to 48px */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Selects the "seo" class in the span tag and sets the text colour to #d9dcd6 */
+.seo {
+    color: #d9dcd6;
+}
+
+/* Selects the nav element and sets a top padding of 15px, a right margin of 20px, floats the text to the right, sets a list of fonts in preferred order and applies a font-size of 20px */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Selects the ul element and applies no list style type so bullet points do not appear */
+ul {
+    list-style-type: none;
+}
+
+/* Selects the li element and displays it as an in-line block so it remains in one horizontal axis, a left margin of 25px is also applied to give each list item space */
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Selects the a element and sets the text-colour to #ffffff and removes the underline through no text decoration */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Selects the img element inside the figure tag and applies a height of 800px, width of 100% so it fills the entire desktop and bottom margin of 25px */
+figure img {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Selects the article element and applies a width of 75%, displays the article as an in-line block and has a left margin of 20px */
+article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Selects the "container" class in the section tag and uses a bottom margin of 20px, padding of 50px, height of 300px, sets a list of fonts in preferred order, sets a background colour of #0072b and text-colour of #ffffff */
+.container {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Selects the "float-left" class inside the img tag and places the image to the left, sets a 25px margin to the right and applies a max-height of 200px */
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+/* Selects the h2 element and applies a bottom margin of 20px and a font-size of 36px */
+main article section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Selects the p element and applies a font-size of 16px */
+p {
+    font-size: 16px;
+}
+
+/* Selects the "float-right" class inside the img tag and places the image to the right, sets a 25px margin to the right and applies a max-height of 200px */
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/* Selects the aside element and sets a right margin of 20px, padding of 20px on all sides, places the container to the right, sets a width of 20%, sets a list of fonts in preferred order and applies a background colour of #2589bd */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Selects the "lead-brand-cost" class and sets a bottom margin of 32px and text colour of #ffffff */
+.lead-brand-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Selects the h3 element and applies a bottom margin of 10px and aligns the text to the center of the aside element */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Selects the img tag inside the "lead-brand-cost" class and stacks the images through the display block, sets a 10px margin to the top and bottom and an automatic margin that the browser sets to the right and left and a max width of 150px */
+.lead-brand-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Selects the footer element and sets a 30px padding on all sides, clears both sides, sets a list of fonts in preferred order and aligns text to the center */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Selects the h2 element inside the footer tag and applies a font-size of 20px */
+footer h2 {
+    font-size: 20px;
+}
