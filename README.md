@@ -18,4 +18,7 @@ THEN I find a concise, descriptive title
 
 Further, I also improved the codebase by consolidating the CSS as there were many duplicates which completed the same styling. 
 
+This is the result:
+https://g-murphy03.github.io/Code-Refactor-Challenge-Week-1/
+
 *Note that this layout is designed for desktop viewing, so elemenets don't stay consistent at smaller resoultions. We have not yet learnt how to make elements responsive so that web application is optimised for any screen size.
